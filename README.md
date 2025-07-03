@@ -48,11 +48,31 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 ### Step 2) Mock Meeting: Policy Buy-In (Stakeholders)
 
-In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
+### Challenge & Approach
+The organization needed to reduce its risk exposure by accelerating vulnerability remediation timelines. An initial draft policy proposed a 48-hour deadline for all critical vulnerabilities. While secure, this timeline was unfeasible for the server team given their operational workload, creating a potential conflict between security goals and IT capacity.
 
-<a href='https://youtu.be/8g6uafc6LjE' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/549d21f4-26c2-412d-9117-d7b6835aedbf"></a>
+Instead of dictating terms, a collaborative process was initiated with the Server Team Manager to build consensus and find a practical path forward. The approach centered on three key compromises:
 
-[YouTube Video: Stakeholder Policy Buy-In Meeting](https://youtu.be/8g6uafc6LjE)
+* **Tiered Timelines:** A more manageable 7-day remediation window was established for most critical vulnerabilities.
+* **Urgent Threat Exception:** The aggressive 48-hour deadline was reserved for true zero-day exploits and other imminent threats, allowing for a rapid response when it mattered most.
+* **Smooth Transition:** A six-month grace period was secured post-launch to allow teams to adapt to the new process without immediate pressure.
+
+---
+
+### Outcome & Impact
+This collaborative negotiation transformed the server team from potential blockers into key partners. The resulting policy was not only formally adopted but had strong buy-in from all stakeholders.
+
+Ultimately, a stronger security policy was successfully implemented that balanced aggressive goals with operational reality. This project strengthened the relationship between the Cybersecurity and IT Operations teams and created a more robust and sustainable vulnerability management program.
+
+---
+
+### Skills Demonstrated
+* Stakeholder Management & Negotiation
+* Cybersecurity Policy Development
+* Proactive & Empathetic Communication
+* Vulnerability Management Lifecycle
+* Collaborative Problem-Solving
+* Risk Management & Assessment
 
 ---
 
