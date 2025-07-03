@@ -129,9 +129,9 @@ By proactively addressing legitimate concerns, this approach overcame initial re
 
 In this phase, an insecure Windows Server is provisioned to simulate the server team's environment. After creating vulnerabilities, an authenticated scan is performed, and the results are exported for future remediation steps.  
 
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/937cccbd-36bb-4445-97b9-e915085cda81" style="border: 2px solid black;">
+![image](https://github.com/user-attachments/assets/c1382b4f-ff00-48c3-83bc-5474c33cf279)
 
-[Scan 1 - Initial Scan](https://drive.google.com/file/d/1RBPVj_azKJMwmRZ8QILlb4hxIjQU3wQ7/view?usp=drive_link)
+[Scan 1 - Initial Scan](https://drive.google.com/file/d/1QuwXnY6RIhrgr3tE7P_xs6Onnm_02CHO/view?usp=sharing)
 
 
 
