@@ -20,10 +20,10 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 # Table of Contents
 
-- [Vulnerability Management Policy Draft Creation](#vulnerability-management-policy-draft-creation)
-- [Case Study 1: Securing Stakeholder Buy-In](#case-study-securing-stakeholder-buy-in-for-a-new-security-policy)
-- [Policy Finalization and Senior Leadership Sign-Off](#policy-finalization-and-senior-leadership-sign-off)
-- [Case Study 2: Implementing Secure Scanning](#case-study-implementing-a-secure-credentialed-scanning-program)
+- [Vulnerability Management Policy Draft Creation](#step-1-vulnerability-management-policy-draft-creation)
+- [Case Study: Securing Stakeholder Buy-In](#step-2-case-study-securing-stakeholder-buy-in-for-a-new-security-policy)
+- [Policy Finalization and Senior Leadership Sign-Off](#step-3-policy-finalization-and-senior-leadership-sign-off)
+- [Case Study: Implementing Secure Scanning](#step-4-case-study-implementing-a-secure-credentialed-scanning-program)
 - [Initial Scan of Server Team Assets](#step-5-initial-scan-of-server-team-assets)
 - [Vulnerability Assessment and Prioritization](#step-6-vulnerability-assessment-and-prioritization)
 - [Distributing Remediations to Remediation Teams](#step-7-distributing-remediations-to-remediation-teams)
@@ -37,14 +37,14 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 ---
 
-### Vulnerability Management Policy Draft Creation
+### Step 1: Vulnerability Management Policy Draft Creation
 
 This phase focuses on drafting a Vulnerability Management Policy as a starting point for stakeholder engagement. The initial draft outlines scope, responsibilities, and remediation timelines, and may be adjusted based on feedback from relevant departments to ensure practical implementation before final approval by upper management.  
 [Draft Policy](https://docs.google.com/document/d/1N7DBV2VxZWyqdRabs9VhIQoNhNQTFX0jYSr47uoWPgg/edit?usp=sharing)
 
 ---
 
-### Case Study: Securing Stakeholder Buy-In for a New Security Policy
+### Step 2: Case Study: Securing Stakeholder Buy-In for a New Security Policy
 
 ### Objective
 As a Cyber VM Analyst, the objective was to implement a more aggressive vulnerability remediation policy. To ensure the policy was both effective for security and operationally feasible, a proactive partnership with the IT server team was crucial for developing a balanced and realistic solution.
@@ -79,7 +79,7 @@ Ultimately, a stronger security policy was successfully implemented that balance
 
 ---
 
-### Policy Finalization and Senior Leadership Sign-Off
+### Step 3: Policy Finalization and Senior Leadership Sign-Off
 
 After gathering feedback from the server team, the policy is revised, addressing aggressive remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
 [Finalized Policy](https://docs.google.com/document/d/1rvueLX_71pOR8ldN9zVW9r_zLzDQxVsnSUtNar8ftdg/edit?usp=drive_link)
@@ -88,7 +88,7 @@ After gathering feedback from the server team, the policy is revised, addressing
 
 ---
 
-### Case Study: Implementing a Secure Credentialed Scanning Program
+### Step 4: Case Study: Implementing a Secure Credentialed Scanning Program
 
 ### Objective
 To operationalize a new vulnerability management policy by establishing a regular, credentialed scanning schedule for the server environment. The goal was to gain deep, authenticated visibility into system vulnerabilities while addressing the server team's concerns regarding security and operational stability.
@@ -125,7 +125,7 @@ By proactively addressing legitimate concerns, this approach overcame initial re
 
 ---
 
-### Step 5) Initial Scan of Server Team Assets
+### Step 5: Initial Scan of Server Team Assets
 
 In this phase, an insecure Windows Server is provisioned to simulate the server team's environment. After creating vulnerabilities, an authenticated scan is performed, and the results are exported for future remediation steps.  
 
