@@ -23,9 +23,9 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 # Table of Contents
 
 - [Vulnerability Management Policy Draft Creation](#vulnerability-management-policy-draft-creation)
-- [Mock Meeting: Policy Buy-In (Stakeholders)](#step-2-mock-meeting-policy-buy-in-stakeholders)
-- [Policy Finalization and Senior Leadership Sign-Off](#step-3-policy-finalization-and-senior-leadership-sign-off)
-- [Mock Meeting: Initial Scan Permission (Server Team)](#step-4-mock-meeting-initial-scan-permission-server-team)
+- [Case Study 1: Securing Stakeholder Buy-In](#case-study-securing-stakeholder-buy-in-for-a-new-security-policy)
+- [Policy Finalization and Senior Leadership Sign-Off](#policy-finalization-and-senior-leadership-sign-off)
+- [Case Study 2: Implementing Secure Scanning](#case-study-implementing-a-secure-credentialed-scanning-program)
 - [Initial Scan of Server Team Assets](#step-5-initial-scan-of-server-team-assets)
 - [Vulnerability Assessment and Prioritization](#step-6-vulnerability-assessment-and-prioritization)
 - [Distributing Remediations to Remediation Teams](#step-7-distributing-remediations-to-remediation-teams)
@@ -46,7 +46,7 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 ---
 
-# Case Study: Securing Stakeholder Buy-In for a New Security Policy
+### Case Study: Securing Stakeholder Buy-In for a New Security Policy
 
 ### Objective
 As a Cyber VM Analyst, the objective was to implement a more aggressive vulnerability remediation policy. To ensure the policy was both effective for security and operationally feasible, a proactive partnership with the IT server team was crucial for developing a balanced and realistic solution.
@@ -81,7 +81,7 @@ Ultimately, a stronger security policy was successfully implemented that balance
 
 ---
 
-### Step 3) Policy Finalization and Senior Leadership Sign-Off
+### Policy Finalization and Senior Leadership Sign-Off
 
 After gathering feedback from the server team, the policy is revised, addressing aggressive remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
 [Finalized Policy](https://docs.google.com/document/d/1rvueLX_71pOR8ldN9zVW9r_zLzDQxVsnSUtNar8ftdg/edit?usp=drive_link)
@@ -90,13 +90,40 @@ After gathering feedback from the server team, the policy is revised, addressing
 
 ---
 
-### Step 4) Mock Meeting: Initial Scan Permission (Server Team)
+### Case Study: Implementing a Secure Credentialed Scanning Program
 
-The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
+### Objective
+To operationalize a new vulnerability management policy by establishing a regular, credentialed scanning schedule for the server environment. The goal was to gain deep, authenticated visibility into system vulnerabilities while addressing the server team's concerns regarding security and operational stability.
 
-<a href='https://youtu.be/lg068WA4SKM' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/31fe8d0f-636b-475b-8d5a-a2795c183f86"></a>
+---
 
-[YouTube Video: Initial Discovery Scan](https://youtu.be/lg068WA4SKM)
+### Challenge & Approach
+The initial proposal for a 4-6 hour weekly scan across 200 servers was met with resistance. The Server Team Manager raised two critical objections, which were addressed with targeted solutions to build trust and find a practical path forward:
+
+**Challenge (Operational Risk):** The potential for high resource utilization during the scan could impact server performance.
+**Solution (Phased Pilot):** To demonstrate minimal performance impact, a pilot scan was first conducted on a single, non-critical server to closely monitor resource use before any full-scale deployment.
+
+**Challenge (Security Risk):** Providing a single, persistent administrative account for all 200 machines created an unacceptable security risk.
+**Solution (JIT Credentials):** To mitigate this risk, a Just-in-Time (JIT) access model was implemented. A dedicated service account remained disabled by default, was enabled only for the scan's duration, and was immediately disabled upon completion, adhering to the principle of least privilege.
+
+---
+
+### Outcome & Impact
+The server team agreed to the revised approach. The manager demonstrated full buy-in by immediately tasking a team member with automating the JIT account provisioning process.
+
+By proactively addressing legitimate concerns, this approach overcame initial resistance and established a secure, operationally sound process for credentialed scanning. This built a foundation of trust for the ongoing vulnerability management program, ensuring security objectives could be met without compromising operational integrity.
+
+---
+
+### Skills Demonstrated
+* Technical Problem-Solving
+* Risk Mitigation & Management
+* Technical Negotiation
+* Principle of Least Privilege
+* Stakeholder Collaboration
+* Vulnerability Scanning & Management  
+
+
 
 ---
 
