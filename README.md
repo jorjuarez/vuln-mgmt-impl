@@ -44,7 +44,7 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 ---
 
-### Step 2: Case Study: Securing Stakeholder Buy-In for a New Security Policy
+### Step 2: Case Study - Securing Stakeholder Buy-In for a New Security Policy
 
 ### Objective
 As a Cyber VM Analyst, the objective was to implement a more aggressive vulnerability remediation policy. To ensure the policy was both effective for security and operationally feasible, a proactive partnership with the IT server team was crucial for developing a balanced and realistic solution.
@@ -88,7 +88,7 @@ After gathering feedback from the server team, the policy is revised, addressing
 
 ---
 
-### Step 4: Case Study: Implementing a Secure Credentialed Scanning Program
+### Step 4: Case Study - Implementing a Secure Credentialed Scanning Program
 
 ### Objective
 To operationalize a new vulnerability management policy by establishing a regular, credentialed scanning schedule for the server environment. The goal was to gain deep, authenticated visibility into system vulnerabilities while addressing the server team's concerns regarding security and operational stability.
@@ -138,7 +138,7 @@ In this phase, an insecure Windows Server is provisioned to simulate the server 
 
 ---
 
-### Step 6) Vulnerability Assessment and Prioritization
+### Step 6: Vulnerability Assessment and Prioritization
 
 We assessed vulnerabilities and established a remediation prioritization strategy based on ease of remediation and impact. The following priorities were set:
 
@@ -149,7 +149,7 @@ We assessed vulnerabilities and established a remediation prioritization strateg
 
 ---
 
-### Step 7) Distributing Remediations to Remediation Teams
+### Step 7: Distributing Remediations to Remediation Teams
 
 The server team received remediation scripts and scan reports to address key vulnerabilities. This streamlined their efforts and prepared them for a follow-up review.  
 
@@ -159,13 +159,40 @@ The server team received remediation scripts and scan reports to address key vul
 
 ---
 
-### Step 8) Mock Meeting: Post-Initial Discovery Scan (Server Team)
+### Step 8: Case Study - Collaborative Review and Triage of Vulnerability Scan Results
 
-The server team reviewed vulnerability scan results, identifying outdated software, insecure accounts, and deprecated protocols. The remediation packages were prepared for submission to the Change Control Board (CAB). 
+### Objective
+To analyze the results of the first credentialed vulnerability scan and translate the raw data into a prioritized, actionable remediation plan in collaboration with the server team.
 
-<a href="https://youtu.be/0tjjFewxSNw" target="_"><img width="600" src="https://github.com/user-attachments/assets/03027c66-5f7c-42d0-b6dd-09d053c040b1"/></a>
+---
 
-[Meeting Video](https://youtu.be/0tjjFewxSNw)
+### Challenge & Approach
+The primary challenge was to analyze and contextualize the raw scan data, separating critical vulnerabilities from low-priority noise to create an achievable remediation plan.
+
+A collaborative review session was initiated with the server team to systematically triage the findings. The process began by confirming that the pilot scan caused no performance issues, building confidence for future scans. From there, the vulnerabilities were grouped into logical categories:
+
+* **High-Priority (Manual Remediation):** This category included outdated software (Wireshark), a critical misconfiguration (Guest account in the local Administrators group), and deprecated protocols/ciphers (TLS 1.0/1.1).
+* **Automated Remediation:** Vulnerabilities related to out-of-date Microsoft products (e.g., Edge) were identified as likely to be resolved by the existing patch management solution.
+* **Informational / Low-Risk:** Findings like self-signed SSL certificates were identified as low-risk and deprioritized to focus efforts on more critical items.
+
+To ensure feasibility, the analyst proactively confirmed with the Server Team Manager that the high-priority items were low-risk to remediate and would be approved through the Change Control Board. This led to a clear action plan where the analyst took responsibility for packaging remediation solutions, while the server team managed automated patching.
+
+---
+
+### Outcome & Impact
+The collaborative review successfully transformed a long list of vulnerabilities into a short, prioritized list of actionable tasks. The server team understood exactly what needed to be done and why, and they agreed to the remediation plan.
+
+By proactively filtering noise and collaborating with asset owners, an efficient triage process was established. This built a strong partnership and ensured that remediation efforts were focused on the most significant risks, with a clear plan ready to present at the next Change Control Board.
+
+---
+
+### Skills Demonstrated
+* Vulnerability Analysis & Triage
+* Technical Communication
+* Collaborative Problem-Solving
+* Risk Prioritization
+* Remediation Planning
+* IT Process Integration (Patching, Change Control)
 
 ---
 
