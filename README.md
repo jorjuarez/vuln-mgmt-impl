@@ -46,7 +46,12 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 ---
 
-### Step 2) Mock Meeting: Policy Buy-In (Stakeholders)
+# Case Study: Securing Stakeholder Buy-In for a New Security Policy
+
+### Objective
+As a Cyber VM Analyst, the objective was to implement a more aggressive vulnerability remediation policy. To ensure the policy was both effective for security and operationally feasible, a proactive partnership with the IT server team was crucial for developing a balanced and realistic solution.
+
+---
 
 ### Challenge & Approach
 The organization needed to reduce its risk exposure by accelerating vulnerability remediation timelines. An initial draft policy proposed a 48-hour deadline for all critical vulnerabilities. While secure, this timeline was unfeasible for the server team given their operational workload, creating a potential conflict between security goals and IT capacity.
