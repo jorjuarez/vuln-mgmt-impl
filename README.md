@@ -196,13 +196,39 @@ By proactively filtering noise and collaborating with asset owners, an efficient
 
 ---
 
-### Step 9) Mock CAB Meeting: Implementing Remediations
+### Step 9: Case Study - Presenting a Security Change to the Change Advisory Board (CAB)
 
-The Change Control Board (CAB) reviewed and approved the plan to remove insecure protocols and cipher suites. The plan included a rollback script and a tiered deployment approach.  
+### Objective
+To present a planned security remediation to the Change Advisory Board (CAB) and gain official approval by clearly articulating the technical change, its associated risks, and a robust mitigation and rollback strategy.
 
-<a href="https://youtu.be/zOFPkTa9kY8" target="_"><img width="600" src="https://github.com/user-attachments/assets/07164e63-fbce-471a-b469-29a6d41b7bb8"/></a>
+---
 
-[Meeting Video](https://youtu.be/zOFPkTa9kY8)
+### Challenge & Approach
+The change involved disabling deprecated TLS protocols and weak cipher suites across the server environment. While technically a simple registry modification deployed via PowerShell, any change to cryptographic standards carries the inherent risk of disrupting critical application connectivity. The challenge was to assure the CAB that all potential risks had been considered and that a comprehensive safety net was in place.
+
+The presentation to the CAB was structured around two pillars to proactively address their primary concerns:
+
+1.  **Clear Communication:** The change was explained in simple terms: a PowerShell script would modify the Windows registry to disable outdated protocols (TLS 1.0, 1.1) and ciphers. Describing it as a common and well-understood procedure demystified the change for non-specialist stakeholders.
+2.  **Proactive Risk Mitigation:** To proactively address concerns about negative impacts, a multi-layered safety plan was detailed:
+    * **Tiered Deployment:** The change would follow a phased rollout (Pilot -> Pre-Production -> Production), allowing for issues to be caught in a small, controlled group before impacting the entire environment.
+    * **Automated Rollback Script:** A fully tested, automated PowerShell script was created to instantly revert the registry changes to their original state, ensuring a near-zero Recovery Time Objective (RTO) if unforeseen issues arose.
+
+---
+
+### Outcome & Impact
+The CAB approved the change. By anticipating questions and presenting a comprehensive, multi-layered safety plan, this approach demonstrated thoroughness and due diligence.
+
+This not only secured the necessary approval but also built the board's confidence in the security team's ability to manage operational risk. The remediation was subsequently deployed without issue, successfully hardening the security posture of the server fleet.
+
+---
+
+### Skills Demonstrated
+* Change Management (CAB Process)
+* Risk Assessment & Mitigation
+* Technical Communication
+* Remediation Scripting (PowerShell)
+* Deployment Planning (Phased Rollout)
+* IT Governance & Compliance
 
 ---
 ### Step 10 ) Remediation Effort
