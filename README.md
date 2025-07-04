@@ -239,7 +239,7 @@ This not only secured the necessary approval but also built the board's confiden
 #### Remediation Round 1: Outdated Wireshark Removal
 
 The server team used a PowerShell script to remove outdated Wireshark. A follow-up scan confirmed successful remediation.  
-[Wireshark Removal Script](https://github.com/jorjuarez/Cybersecurity-Portfolio-Public/blob/main/automation/remediation-wireshark-uninstall.ps1)  
+[Wireshark Removal Script](https://github.com/jorjuarez/Cybersecurity-Portfolio-Public/blob/main/automation/remediation-wireshark-uninstall.ps1) - *A PowerShell script to silently uninstall specific versions of Wireshark from Windows systems.* 
 
 ![image](https://github.com/user-attachments/assets/58da86b6-9d02-4150-aef5-22459e84fca1)
 
