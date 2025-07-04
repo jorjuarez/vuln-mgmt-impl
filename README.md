@@ -231,46 +231,50 @@ This not only secured the necessary approval but also built the board's confiden
 * IT Governance & Compliance
 
 ---
-### Step 10 ) Remediation Effort
+### Step 10 - Remediation Effort
 
 #### Remediation Round 1: Outdated Wireshark Removal
 
 The server team used a PowerShell script to remove outdated Wireshark. A follow-up scan confirmed successful remediation.  
-[Wireshark Removal Script](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-wireshark-uninstall.ps1)  
+[Wireshark Removal Script](https://github.com/jorjuarez/Cybersecurity-Portfolio-Public/blob/main/automation/remediation-wireshark-uninstall.ps1)  
 
-<img width="634" alt="image" src="https://github.com/user-attachments/assets/7b4f9ab2-d230-4458-ac0f-c0ff070ae79a">
+![image](https://github.com/user-attachments/assets/58da86b6-9d02-4150-aef5-22459e84fca1)
 
-[Scan 2 - Third Party Software Removal](https://drive.google.com/file/d/1UiwPPTtuSZKk02hiMyXf31pXUIeC5EWt/view?usp=drive_link)
+
+[Scan 2 - Third Party Software Removal](https://drive.google.com/file/d/1-IxeP9eZLepWvczgAc3uH-avaGp_SMjP/view?usp=drive_link)
 
 
 #### Remediation Round 2: Insecure Protocols & Ciphers
 
 The server team used PowerShell scripts to remediate insecure protocols and cipher suites. A follow-up scan verified successful remediation, and the results were saved for reference.  
-[PowerShell: Insecure Protocols Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-protocols.ps1)
-[PowerShell: Insecure Ciphers Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-cipher-suites.ps1)
+[PowerShell: Insecure Protocols Remediation](https://github.com/jorjuarez/Cybersecurity-Portfolio-Public/blob/main/automation/toggle-protocols.ps1)
+[PowerShell: Insecure Ciphers Remediation](https://github.com/jorjuarez/Cybersecurity-Portfolio-Public/blob/main/automation/toggle-cipher-suites.ps1)
 
-<img width="630" alt="image" src="https://github.com/user-attachments/assets/0e96120d-8ec9-4f76-8e42-79c752200010">
+![image](https://github.com/user-attachments/assets/a59819fb-da29-4d9f-93d5-edf35c147268)
 
-[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1Qc6-ezQvwReCGUZNtnva0kCZo_-zW-Sm/view?usp=drive_link)
+
+[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1tza2bBV5xJ8OTBRromuWwNv6mRbj2rXg/view?usp=sharing)
 
 
 #### Remediation Round 3: Guest Account Group Membership
 
 The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison.  
-[PowerShell: Guest Account Group Membership Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-guest-local-administrators.ps1)  
+[PowerShell: Guest Account Group Membership Remediation](https://github.com/jorjuarez/Cybersecurity-Portfolio-Public/blob/main/automation/toggle-guest-local-administrators.ps1)  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
+![image](https://github.com/user-attachments/assets/1eec9c35-ff8b-4f21-953e-62c66280b5b2)
 
-[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1jVgikjfrV1YjOcL3QRT_oUB0Y82w22V7/view?usp=drive_link)
+
+[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1KBVnQ7fzZmQ0SlsvKJRb5IWmG8DRq8mJ/view?usp=sharing)
 
 
 #### Remediation Round 4: Windows OS Updates
 
 Windows updates were re-enabled and applied until the system was fully up to date. A final scan verified the changes  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
+![image](https://github.com/user-attachments/assets/9ce498b9-c78a-412a-8f2b-d78149c0d355)
 
-[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/1tmDjeHl5uiGitRwWy8kFRi33q-nGi1Zt/view?usp=drive_link)
+
+[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/1nSl8vtLY1IIqD4ponfLcGkID_2wD9ODy/view?usp=sharing)
 
 ---
 
