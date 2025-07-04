@@ -18,10 +18,12 @@ This project documents the end-to-end implementation of a vulnerability manageme
 
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/cfc5dbcf-3fcb-4a71-9c13-2a49f8bab3e6">
 
-# Technology Utilized
-- Tenable (enterprise vulnerability management platform)
-- Azure Virtual Machines (Nessus scan engine + scan targets)
-- PowerShell & BASH (remediation scripts)
+# Skills & Technologies Showcased
+
+- **Vulnerability Management:** Tenable.io, Nessus, Scan Analysis, Remediation Prioritization
+- **Cloud & OS:** Azure Virtual Machines, Windows Server Administration
+- **Automation & Scripting:** PowerShell, BASH
+- **IT Governance:** Policy Creation, Change Management (CAB), Stakeholder Negotiation
 
 ---
 
