@@ -8,6 +8,14 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 ---
 
+### Project Highlights
+
+This project documents the end-to-end implementation of a vulnerability management program.
+
+* **Challenge:** Establish a formal security process in an organization with no existing vulnerability management.
+* **Action:** Developed policy, secured stakeholder buy-in, performed scans, and executed a full remediation cycle.
+* **Result:** Achieved an **80% reduction** in total vulnerabilities, including a **100% resolution** of all critical risks.
+
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/cfc5dbcf-3fcb-4a71-9c13-2a49f8bab3e6">
 
 # Technology Utilized
