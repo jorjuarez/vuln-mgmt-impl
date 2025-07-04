@@ -20,20 +20,23 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 # Table of Contents
 
-- [Vulnerability Management Policy Draft Creation](#step-1-vulnerability-management-policy-draft-creation)
-- [Case Study: Securing Stakeholder Buy-In](#step-2-case-study-securing-stakeholder-buy-in-for-a-new-security-policy)
-- [Policy Finalization and Senior Leadership Sign-Off](#step-3-policy-finalization-and-senior-leadership-sign-off)
-- [Case Study: Implementing Secure Scanning](#step-4-case-study-implementing-a-secure-credentialed-scanning-program)
-- [Initial Scan of Server Team Assets](#step-5-initial-scan-of-server-team-assets)
-- [Vulnerability Assessment and Prioritization](#step-6-vulnerability-assessment-and-prioritization)
-- [Distributing Remediations to Remediation Teams](#step-7-distributing-remediations-to-remediation-teams)
-- [Case Study: Collaborative Review and Triage of Vulnerability Scan Results](#step-8-case-study-collaborative-review-and-triage-of-vulnerability-scan-results)
-- [Case Study: Presenting a Security Change to the Change Advisory Board (CAB)](#step-9-case-study-presenting-a-security-change-to-the-change-advisory-board-cab)
-- [Remediation Round 1: Outdated Wireshark Removal](#remediation-round-1-outdated-wireshark-removal)
-- [Remediation Round 2: Insecure Protocols & Ciphers](#remediation-round-2-insecure-protocols--ciphers)
-- [Remediation Round 3: Guest Account Group Membership](#remediation-round-3-guest-account-group-membership)
-- [Remediation Round 4: Windows OS Updates](#remediation-round-4-windows-os-updates)
+- [Technology Utilized](#technology-utilized)
+- [Step 1: Vulnerability Management Policy Draft Creation](#step-1-vulnerability-management-policy-draft-creation)
+- [Step 2: Case Study - Securing Stakeholder Buy-In for a New Security Policy](#step-2-case-study---securing-stakeholder-buy-in-for-a-new-security-policy)
+- [Step 3: Policy Finalization and Senior Leadership Sign-Off](#step-3-policy-finalization-and-senior-leadership-sign-off)
+- [Step 4: Case Study - Implementing a Secure Credentialed Scanning Program](#step-4-case-study---implementing-a-secure-credentialed-scanning-program)
+- [Step 5: Initial Scan of Server Team Assets](#step-5-initial-scan-of-server-team-assets)
+- [Step 6: Vulnerability Assessment and Prioritization](#step-6-vulnerability-assessment-and-prioritization)
+- [Step 7: Distributing Remediations to Remediation Teams](#step-7-distributing-remediations-to-remediation-teams)
+- [Step 8: Case Study - Collaborative Review and Triage of Vulnerability Scan Results](#step-8-case-study---collaborative-review-and-triage-of-vulnerability-scan-results)
+- [Step 9: Case Study - Presenting a Security Change to the Change Advisory Board (CAB)](#step-9-case-study---presenting-a-security-change-to-the-change-advisory-board-cab)
+- [Step 10 - Remediation Effort](#step-10---remediation-effort)
+  - [Remediation Round 1: Outdated Wireshark Removal](#remediation-round-1-outdated-wireshark-removal)
+  - [Remediation Round 2: Insecure Protocols & Ciphers](#remediation-round-2-insecure-protocols--ciphers)
+  - [Remediation Round 3: Guest Account Group Membership](#remediation-round-3-guest-account-group-membership)
+  - [Remediation Round 4: Windows OS Updates](#remediation-round-4-windows-os-updates)
 - [First Cycle Remediation Effort Summary](#first-cycle-remediation-effort-summary)
+- [On-going Vulnerability Management (Maintenance Mode)](#on-going-vulnerability-management-maintenance-mode)
 
 ---
 
