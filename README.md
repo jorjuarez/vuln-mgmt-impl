@@ -95,7 +95,7 @@ Ultimately, a stronger security policy was successfully implemented that balance
 ### Step 3: Policy Finalization and Senior Leadership Sign-Off
 
 After gathering feedback from the server team, the policy is revised, addressing aggressive remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
-[Finalized Policy](https://docs.google.com/document/d/1rvueLX_71pOR8ldN9zVW9r_zLzDQxVsnSUtNar8ftdg/edit?usp=drive_link)
+[Finalized Policy](https://docs.google.com/document/d/1N7DBV2VxZWyqdRabs9VhIQoNhNQTFX0jYSr47uoWPgg/edit?usp=sharing)
 
 ![image](https://github.com/user-attachments/assets/b3461993-53c6-4d27-add4-a85232eb093d)
 
